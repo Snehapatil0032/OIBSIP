@@ -24,13 +24,6 @@ The bus reservation system portal is a web-based application that enables users 
 
 <br>
 
-## ER Diagrm
-<img src="https://github.com/AbhayKumarVishwakarma/Safar/blob/main/Bus%20Reservation%20System%20Portal/Frontend/src/images/ERDiagram2.jpg" > </img>
-
-<br>
-
-## Flow Chart
-<img src='https://github.com/AbhayKumarVishwakarma/Safar/blob/main/Bus%20Reservation%20System%20Portal/Frontend/src/images/safar2.png'></img>
 
 ## Modules
 
@@ -51,39 +44,8 @@ The bus reservation system portal is a web-based application that enables users 
 * MySQL
 * HTML
 * CSS
-* JavaScript
+* J
 
-## Contributors
 
-* [@Abhay Kumar Vishwakarma](https://github.com/AbhayKumarVishwakarma)
-* [@Ankit Kumar](https://github.com/Github2k10)
-* [@Niharika Pandey](https://github.com/niharikapandey94)
-* [@Yash Nimkar](https://github.com/Yash-Nimkar0)
-* [@Rajeev Ranjan Mishra](https://github.com/Raaz2)
 
-## Installation & Run
-
-* Before running the API server, you should update the database config inside the [application.properties](https://github.com/AbhayKumarVishwakarma/few-houses-4121/blob/main/Bus%20Reservation%20System%20Portal/Backend/bus_reservation/src/main/resources/application.properties) file. 
-* Update the port number, username and password as per your local database config.
-
-```
-      server.port=8999
-
-      #db specific properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/busdb
-      spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-      spring.datasource.username=root
-      spring.datasource.password=root
-
-      #ORM s/w specific properties
-      spring.jpa.hibernate.ddl-auto=update
-      spring.jpa.show-sql=true
-
-```
-
-## API Root Endpoint
-
-`https://localhost:8000/`
- 
-`http://localhost:8000/swagger-ui/`
 
